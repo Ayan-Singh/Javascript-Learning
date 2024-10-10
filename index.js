@@ -33,3 +33,33 @@
     console.log("enter valid age");
  }
 
+ //ARRAY 
+
+ let teaflavours = ["Green Tea" , "Black Tea" , "Oolong Tea"];
+ let firstTea = teaflavours[0];
+ console.log(firstTea);
+ console.log(teaflavours);
+
+ let cities = ["rewa" , "satna","pune","sidhi"]
+ let favourite = cities[2];
+ console.log(favourite);
+
+ teaflavours[1] = "Ginger Tea"
+ //Adding element
+ teaflavours[teaflavours.length]="Milk Tea"
+ console.log(teaflavours);
+
+ //Using push method
+ teaflavours.push("Normal Tea");
+ teaflavours.pop();
+ let arr = teaflavours.pop();
+ console.log(arr)
+ console.log(teaflavours);
+
+ //Merging arrays 
+ let merge = teaflavours.concat(cities) ;
+ console.log(merge)
+let length = merge.length;
+console.log(length)
+let check = cities.includes("rewa")
+console.log(check)
