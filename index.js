@@ -1,3 +1,4 @@
+//*******************CONDITIONAL STATEMENT */
 //Cheking if number is greater than other number 
  let num1 = 23;
  let num2 = 32;
@@ -16,3 +17,19 @@
  }else{
     console.log("no match")
  }
+
+ //else if 
+
+ let user = 21;
+ if(user>=0 && user<=5){
+    console.log("Child");
+ }else if(user >5 && user <= 17){
+    console.log("Teen")
+ }else if(user >=18 && user <=60){
+    console.log("Adult")
+ }else if(user > 60){
+    console.log("old")
+ }else{
+    console.log("enter valid age");
+ }
+
