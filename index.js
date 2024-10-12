@@ -63,3 +63,51 @@ let length = merge.length;
 console.log(length)
 let check = cities.includes("rewa")
 console.log(check)
+
+//LOOPS
+//while loop
+let sum=0; 
+let i = 1;
+while(i<=5){
+   sum=sum+i
+   i++
+}
+console.log(sum)
+
+let countdown =[];
+let j=5;
+while(j>=1){
+   countdown.push(j)
+   j--
+}
+console.log(countdown);
+
+//Do while Loop
+// let teacoll = []
+// let tea ;
+// do{
+//    tea = prompt("enter tea")
+//    if(tea != "stop"){
+//       teacoll.push(teacoll);
+//    }
+// }while(tea != "stop");
+
+//for loop
+let num = [2,4,6,8];
+let multiplynum = []
+for(let i=0;i<=num.length - 1;i++ ){
+   multiplynum.push(num[i]*2)
+}
+console.log(multiplynum);
+
+//
+let names = ["ayan","gaurav","poorvi","pooru"]
+let naam =[];
+for(let i=0;i<=names.length-1;i++){
+   if(names[i]==="poorvi"){
+      continue
+   }else{
+      naam.push(names[i]) ;
+   }
+}
+console.log(naam)
