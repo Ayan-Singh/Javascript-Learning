@@ -27,3 +27,11 @@ for(let i=0;i<=num.length - 1;i++ ){
    multiplynum.push(num[i]*2)
 }
 console.log(multiplynum);
+
+let countdown =[];
+let j=5;
+while(j>=1){
+   countdown.push(j)
+   j--
+}
+console.log(countdown);
