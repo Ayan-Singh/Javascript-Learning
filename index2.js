@@ -19,3 +19,11 @@ for(let i=0;i<=names.length-1;i++){
    }
 }
 console.log(naam)
+
+//for loop
+let num = [2,4,6,8];
+let multiplynum = []
+for(let i=0;i<=num.length - 1;i++ ){
+   multiplynum.push(num[i]*2)
+}
+console.log(multiplynum);
